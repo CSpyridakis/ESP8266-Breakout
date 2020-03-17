@@ -178,10 +178,10 @@
 <text x="22.5" y="9.1" size="0.8128" layer="21" rot="R270">SCLK</text>
 <text x="22.5" y="5.6" size="0.8128" layer="21" rot="R270">MOSI</text>
 <text x="22.5" y="1.8" size="0.8128" layer="21" rot="R270">10</text>
-<text x="17.8" y="26.8" size="1.4224" layer="26" rot="MR0">R- 10KΩ/0805</text>
-<text x="11.2" y="1.2" size="1.4224" layer="26" rot="MR90">github.com/CSpyrida
-kis/ESP8266-Breakout</text>
-<text x="8" y="3.8" size="1.4224" layer="26" rot="MR90">Rev.1.0 (C) 2020</text>
+<text x="18.9" y="8.3" size="1.4224" layer="26" rot="MR90">R- 10KΩ/0805</text>
+<text x="10.9" y="0.8" size="1.4224" layer="26" rot="MR90">github.com/CSpyridak
+is/ESP8266-Breakout</text>
+<text x="8.4" y="4.1" size="1.4224" layer="26" rot="MR90">Rev.1.0 (C) 2020</text>
 </plain>
 <libraries>
 <library name="esp-12e-f">
