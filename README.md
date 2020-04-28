@@ -1,6 +1,6 @@
 # ESP8266-Breakout ![MIT license](https://img.shields.io/github/license/CSpyridakis/ESP8266-Breakout?style=plastic) ![Size](https://img.shields.io/github/repo-size/CSpyridakis/ESP8266-Breakout?style=plastic)
 
-Custom ESP12E/F breakout with all pins available and flash/reset buttons onboard.
+A breadboard friendly ESP12E/F breakout with all pins available, flash/reset buttons onboard and pins ready to use with [FTDI](doc/FTDI.jpeg) boards.
 
 ### Schematic
 ![Schematic](doc/schematic.png)
