@@ -1,6 +1,6 @@
 # ESP8266-Breakout ![MIT license](https://img.shields.io/github/license/CSpyridakis/ESP8266-Breakout?style=plastic) ![Size](https://img.shields.io/github/repo-size/CSpyridakis/ESP8266-Breakout?style=plastic)
 
-A breadboard friendly ESP12E/F breakout with all pins available, flash/reset buttons onboard and pins ready to use with [FTDI](doc/FTDI.jpeg) boards.
+A breadboard friendly ESP12E/F breakout with all I/O pins available, flash/reset buttons onboard and pins ready to use with FTDI boards like [this](https://www.banggood.com/FT232RL-FTDI-USB-To-TTL-Serial-Converter-Adapter-Module-p-917226.html?rmmds=buy&cur_warehouse=CN).
 
 ### Schematic
 ![Schematic](doc/schematic.png)
@@ -19,6 +19,9 @@ A breadboard friendly ESP12E/F breakout with all pins available, flash/reset but
 | 2.  |    10KΩ 0805 smd resistors   | 5 | 
 | 3.  |      SMD-SWITCH-6.2MM        | 2 |
 | 4.  | Pin Header 1x11 Male 2.54 mm | 2 |
+
+### Note
+If you want to power up ESP8266 directly from FTDI board, just short the jumper that exists on the bottom side of the pcb.
 
 ## PCB CAD tool
 This project was developed using free version of  [EAGLE 9.5.2](https://www.autodesk.com/products/eagle/overview)
