@@ -2,17 +2,19 @@
 
 A breadboard friendly ESP12E/F breakout with all I/O pins available, flash/reset buttons onboard and pins ready to use with FTDI boards like [this](https://www.banggood.com/FT232RL-FTDI-USB-To-TTL-Serial-Converter-Adapter-Module-p-917226.html?rmmds=buy&cur_warehouse=CN).
 
+![ESP-Breakout-Breadboard](doc/ESP8266-Breakout-Breadboard.jpg)
+
 ### Schematic
 ![Schematic](doc/schematic.png)
 
-### Top
-![Top](doc/top.png)
+|Top View             |  Bottom View              |
+|:-------------------:|:-------------------------:|
+| ![Top](doc/top.png) | ![Bottom](doc/bottom.png) |
 
-### Bottom
-![Bottom](doc/bottom.png)
+### Sample
+![PCB](doc/ESP8266-Breakout.jpg)
 
 ## Assembly 
-
 | No  |   Component   |    Quantity      |
 | --- | ------------- | ---------------- |
 | 1.  |      ESP8266 - 12e/f         | 1 | 
