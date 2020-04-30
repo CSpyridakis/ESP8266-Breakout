@@ -22,8 +22,13 @@ A breadboard-friendly ESP12E/F breakout with all I/O pins available, flash/reset
 | 3.  |      SMD-SWITCH-6.2MM        | 2 |
 | 4.  | Pin Header 1x11 Male 2.54 mm | 2 |
 
-### Note
-If you want to power up ESP8266 directly from FTDI board, just short the jumper that exists on the bottom side of the pcb.
+### Notes
+* If you want to power up ESP8266-Breakout directly from a FTDI board, you need to solder the jumper that exists on the bottom side of the pcb.
+* If you want to use ESP8266-Breakout with a breadboard.
+  - Connect Vcc to 3.3V
+  - Connect Gn to Ground
+  - You do not need to connect EN pin (ESP8266-Breakout itself has the required connection)
+  - You do not need to add any extra pull-up or pull-down resistors on GPIO15, GPIO2 or GPIO0 for Boot Mode Selection
 
 ## PCB CAD tool
 This project was developed using free version of  [EAGLE 9.5.2](https://www.autodesk.com/products/eagle/overview)
